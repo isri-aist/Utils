@@ -1,0 +1,15 @@
+Camera:
+  name: "PanoraMIS Catadioptric"
+  model: "CPM"
+  
+  a0: 117.073
+  a1: 0
+  a2: -0.002
+  a3: 0
+  a4: 0
+  
+  u0: 321.364
+  v0: 311.875
+  
+  cols: 620
+  rows: 620
