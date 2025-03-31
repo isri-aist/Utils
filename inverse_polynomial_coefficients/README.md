@@ -1,4 +1,4 @@
-# Inverse Polynomial Computation for CPM Model
+# Inverse Polynomial Computation for Cartesian Polynomial Model (CPM)
 
 ## Overview
 This script computes the inverse polynomial transformation for a camera using the Cartesian Polynomial Model (CPM). The output is a JSON file containing the computed inverse polynomial coefficients and relevant camera parameters. This JSON file can then be used with [py-oamcalib](https://github.com/micwu/py-oamcalib) to undistort images based on the CPM model.
@@ -6,6 +6,11 @@ This script computes the inverse polynomial transformation for a camera using th
 This work is inspired by [py-ocamcalib](https://github.com/micwu/py-ocamcalib), which is a Python adaptation of the original MATLAB [OcamCalib toolbox](https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-14-21-8576&id=94824) by Scaramuzza et al.
 
 ## Installation
+Clone this repository:
+```sh
+git clone git@github.com:isri-aist/Utils.git
+cd Utils/inverse_polynomial_coefficients
+```
 Ensure you have Python 3 and the required dependencies installed:
 ```sh
 pip install numpy
@@ -14,13 +19,9 @@ pip install numpy
 ## Usage
 To compute the inverse polynomial, run the following command:
 ```sh
-python inverse.py --parameters <path_to_parameters_file>
+python3 inverse.py --parameters <path_to_parameters_file>
 ```
-### Example
-```sh
-python inverse.py --parameters camera_params.txt
-```
-This will generate a file named `camera_params_inverse.json` with the inverse polynomial coefficients.
+This will generate a file named `*_inverse.json` with the inverse polynomial coefficients.
 
 ## Input Format
 The input parameter file should be in the following format:
