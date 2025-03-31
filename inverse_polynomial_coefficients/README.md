@@ -1,9 +1,9 @@
 # Inverse Polynomial Computation for Cartesian Polynomial Model (CPM)
 
 ## Overview
-This script computes the inverse polynomial transformation for a camera using the Cartesian Polynomial Model (CPM). The output is a JSON file containing the computed inverse polynomial coefficients and relevant camera parameters. This JSON file can then be used with [py-oamcalib](https://github.com/micwu/py-oamcalib) to undistort images based on the CPM model.
+This script computes the inverse polynomial transformation for a camera using the Cartesian Polynomial Model (CPM). The output is a JSON file containing the computed inverse polynomial coefficients and relevant camera parameters. This JSON file can then be used with [py-oamcalib](https://github.com/jakarto3d/py-OCamCalib/) to undistort images based on the CPM model.
 
-This work is inspired by [py-ocamcalib](https://github.com/micwu/py-ocamcalib), which is a Python adaptation of the original MATLAB [OcamCalib toolbox](https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-14-21-8576&id=94824) by Scaramuzza et al.
+This work is inspired by [py-ocamcalib](https://github.com/jakarto3d/py-OCamCalib/), which is a Python adaptation of the original MATLAB [OcamCalib toolbox](https://sites.google.com/site/scarabotix/ocamcalib-omnidirectional-camera-calibration-toolbox-for-matlab) by Scaramuzza et al.
 
 ## Installation
 Clone this repository:
@@ -58,8 +58,8 @@ The generated JSON file will have the following structure:
 ```
 
 ## References
-- **Scaramuzza, D., Martinelli, A., & Siegwart, R. (2006).** *A Toolbox for Easily Calibrating Omnidirectional Cameras*. Optical Express, 14(21), 8576-8589. [Link](https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-14-21-8576&id=94824)
-- **[py-ocamcalib](https://github.com/micwu/py-ocamcalib)** (GitHub)
+- **Scaramuzza, D., Martinelli, A., & Siegwart, R. (2006).** *A Toolbox for Easily Calibrating Omnidirectional Cameras*. Optical Express, 14(21), 8576-8589. [Link](https://sites.google.com/site/scarabotix/ocamcalib-omnidirectional-camera-calibration-toolbox-for-matlab)
+- **[py-ocamcalib](https://github.com/jakarto3d/py-OCamCalib/)** (GitHub)
 
 
 
