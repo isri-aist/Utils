@@ -1,0 +1,15 @@
+name: "PanoraMIS Catadioptric"
+model: "OFM"
+
+fx: 120.984
+fy: 120.984
+cx: 321.503
+cy: 311.665
+
+k1: 0.0262007
+k2: 0.0438178
+k3: -0.00721842
+k4: 0.000919765
+
+cols: 620
+rows: 620

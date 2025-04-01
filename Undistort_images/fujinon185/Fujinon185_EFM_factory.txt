@@ -1,0 +1,9 @@
+name: "Fujinon"
+model: "EFM"
+
+f: 2.7
+k: 11e-3
+fov: 185
+
+cols: 1024
+rows: 1024

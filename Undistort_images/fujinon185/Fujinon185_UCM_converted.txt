@@ -1,0 +1,12 @@
+name: "Fujinon"
+model: "UCM"
+
+fx: 681.086
+fy: 681.086
+cx: 506
+cy: 490
+
+xi: 1.78412
+
+cols: 1024
+rows: 1024
